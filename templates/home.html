@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolt | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="../static/images/favicon/favicon.ico">
+
+  <style type="text/css">
+    body{
+      background-color: #21D4FD;
+      background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+    }
+    .img-jmbo{
+      background-image: url("../static/images/image.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .img-jmbo2{
+      background-image: url("../static/images/bodyfat.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .img-jmbo3{
+      background-image: url("../static/images/calorie.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .img-jmbo4{
+      background-image: url("../static/images/exercise-tracker.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .img-jmbo5{
+      background-image: url("../static/images/water.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .img-jmbo6{
+      background-image: url("../static/images/meditation.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .img-jmbo7{
+      background-image: url("../static/images/sleep.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .img-jmbo8{
+      background-image: url("../static/images/step.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .bg-test{
+      background-color: #FFE53B;
+      background-image: linear-gradient(163deg, #FFE53B 0%, #eb5656 74%);
+
+    }
+  </style>
+
+</head>
+<body>
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1" id="greet"></span>
+      <form action="/userprofile" method="post" >
+      <input type="submit" value="User Profile" name="userProfile" class="text-success btn"
+            style="padding-left: 2.5rem; padding-right: 2.5rem;"></input>
+      </form>
+    </div>
+  </nav>
+    <div class="p-5 mb-4 bg-test">
+        <div class="container-fluid py-5">
+            <img src="../static/images/fitness.svg" class="float-end mt-0" style="width: 250px;">
+          <h1 class="display-5 fw-bold text-white">Welcome To Bolt <i class="fas fa-bolt"></i></h1>
+          <p class="col-md-8 fs-6 text-white">Your All In One Fitness App For Your Good Health & Well Being</p>
+          <a href="https://youtube.com/playlist?list=PLC7458sxfjey0J2Df6QrF6wl1-w1qQ5-j">
+          <button class="btn btn-outline-light" type="button">Learn how to use Bolt <i class="fas fa-bolt"></i></button>
+          </a>
+
+        </div>
+    </div>
+    <div class="row align-items-md-stretch mx-4">
+
+
+      <div class="col-md-6">
+        <form action="/weighttracker" method="post">
+        <div class="h-100 p-5 bg-dark border border-2 rounded-5 img-jmbo">
+          <h2 class="text-white">Weight Tracker</h2>
+          <p class="text-white">Shows graphs and analyzes your weight data and creates graphs.</p>
+          <input type="submit" value="Weight Tracker" name="weightTrack" class="btn btn-outline-light"
+            style="padding-left: 2.5rem; padding-right: 2.5rem;"> </input>
+        </div>
+      </form>
+      </div>
+      <div class="col-md-6">
+        <form action="/bodyfatredirect" method="post">
+        <div class="h-100 p-5 bg-dark border border-2 rounded-5 img-jmbo2">
+          <h2 class="text-white">Body Fat (%)</h2>
+          <p class="text-white">Calculates your body fat based on BMI.</p>
+          <input type="submit" value="Check Body Fat" name="Check Body Fat" class="btn btn-outline-light"
+            style="padding-left: 2.5rem; padding-right: 2.5rem;"> </input>
+        </div>
+      </form>
+      </div>
+      <div class="col-md-6 my-4">
+        <form action="/calorietracker" method="post">
+          <div class="h-100 p-5 bg-dark border border-2 rounded-5 img-jmbo3">
+            <h2 class="text-white">Calorie Tracker</h2>
+            <p class="text-white">Calculates your food intake and finds the calories in your diet.</p>
+
+            <input type="submit" value="Calorie Tracker" name="Calorie Tracker" class="btn btn-outline-light"
+            style="padding-left: 2.5rem; padding-right: 2.5rem;"> </input>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 my-4">
+        <form action="/exercise" method="post">
+        <div class="h-100 p-5 bg-dark border border-2 rounded-5 img-jmbo4">
+          <h2 class="text-white">Exercise Tracker</h2>
+          <p class="text-white">Shows amount of calories you have burnt.</p>          
+          <input type="submit" value="Exercise Tracker" name="exercise" class="btn btn-outline-light"
+          style="padding-left: 2.5rem; padding-right: 2.5rem;"> </input>
+        </div>
+      </form>
+      </div>
+      <div class="col-md-6 my-4">
+        <form action="/water" method="post">
+          <div class="h-100 p-5 bg-dark border border-2 rounded-5 img-jmbo5">
+            <h2 class="text-white">Water Reminder</h2>
+            <p class="text-white">Reminds you to drink water every 20 minutes.</p>
+            <input type="submit" value="Water Reminder" name="Setreminder" class="btn btn-outline-light"
+            style="padding-left: 2.5rem; padding-right: 2.5rem;"> </input>
+          </div>
+        </form>
+
+      </div>
+      <div class="col-md-6 my-4">
+        <form action="/meditation" method="post">
+        <div class="h-100 p-5 bg-dark border border-2 rounded-5 img-jmbo6">
+          <h2 class="text-white">Meditation Assistant</h2>
+          <p class="text-white">Has a timer and plays meditation music.</p>
+          <input type="submit" value="Meditate" name="Meditate" class="btn btn-outline-light"
+          style="padding-left: 2.5rem; padding-right: 2.5rem;"> </input>
+        </div>
+      </form>
+      </div>
+      <div class="col-md-6 my-4">
+        <form action="/sleeptracker" method="post">
+        <div class="h-100 p-5 bg-dark border border-2 rounded-5 img-jmbo7">
+          <h2 class="text-white">Sleep Tracker</h2>
+          <p class="text-white">Helps you graph your sleep and find the best time to sleep.</p>
+          <input type="submit" value="Sleep Tracker" name="sleep" class="btn btn-outline-light"
+          style="padding-left: 2.5rem; padding-right: 2.5rem;"> </input>
+        </div>
+      </form>
+      </div>
+      <div class="col-md-6 my-4">
+        <form action="/redirect_steps" method="post">
+        <div class="h-100 p-5 bg-dark border border-2 rounded-5 img-jmbo8">
+          <h2 class="text-white">Step Tracker</h2>
+          <p class="text-white">Track your steps</p>
+          <input type="submit" value="Step Tracker" name="Step Tracker" class="btn btn-outline-light"
+          style="padding-left: 2.5rem; padding-right: 2.5rem;"> </input>
+        </div>
+      </form>
+      </div>
+    </div>
+    
+<script>
+var myDate = new Date();
+var hrs = myDate.getHours();
+
+var greet;
+
+if (hrs < 12)
+    greet = 'Good Morning,';
+else if (hrs >= 12 && hrs <= 17)
+    greet = 'Good Afternoon,';
+else if (hrs >= 17 && hrs <= 24)
+    greet = 'Good Evening,';
+
+document.getElementById('greet').innerHTML = '<span>' + greet + " " + '<span>' +
+        "{% with messages = get_flashed_messages() %}" +
+        "{% if messages %}"  +
+          "{% for message in messages %}" +
+            "{{ message }}" +
+          "{% endfor %}"  +
+        "{% endif %} " +
+      "{% endwith %}" + '</span>' + '</span>';
+
+</script>
+      <!-- Footer -->
+      <footer class="bg-info text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+      
+      
+      
+      
+        </div class="float-start">
+      
+        <!-- Copyright -->
+        <div class=" p-3" style="background-color: rgba(0, 0, 0, 0.3)">
+          © 2022 Copyright 
+          <a class="text-white" style="text-decoration: none;">Made with 💓 by Prahaas, Ishan and Devarsh</a>
+          <a class="text-white float-end" style="text-decoration: none;" href = "mailto:boltfitnessdevs@gmail.com"> Contact the Devs </a>
+        </div>
+      
+      </footer>
+<script src="https://kit.fontawesome.com/c9be70706d.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
