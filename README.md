@@ -15,7 +15,7 @@ It also displays a meditation timer and several health calculators
 
 - [Usage](#usage)
     - [Features](#Features)
-    - [Contributors](# Contributors)
+    - [Contributors](#Contributors)
     - [Applications Used](#Applications Used)
 
 
