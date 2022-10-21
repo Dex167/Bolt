@@ -15,7 +15,7 @@ It also displays a meditation timer and several health calculators
 
 - [Usage](#usage)
     - [Features](#Features)
-    - [Contributors](#contributors)
+    - [Contributors](#Contributors)
     - [Applications Used](#Applications Used)
 
 
@@ -50,14 +50,20 @@ It also displays a meditation timer and several health calculators
 ![](https://cdn.discordapp.com/attachments/1031232821815169048/1032922433478479882/unknown.png)
 ![](https://cdn.discordapp.com/attachments/1031232821815169048/1032922491930288178/unknown.png)
 
-5. ``
-![](https://cdn.discordapp.com/attachments/1031232821815169048/1032911979276402739/unknown.png)
+8. `Water Reminder`
+![](https://user-images.githubusercontent.com/115386347/197185248-2cffa8a6-f39b-4077-9619-2e8fd2abd4d2.png)
 
-5. `Body Fat Calculator`
-![](https://cdn.discordapp.com/attachments/1031232821815169048/1032911979276402739/unknown.png)
+9. `Meditation Assistant`
+![](https://media.discordapp.net/attachments/1031232821815169048/1032937385308192828/unknown.png?width=1203&height=617)
 
-5. `Body Fat Calculator`
-![](https://cdn.discordapp.com/attachments/1031232821815169048/1032911979276402739/unknown.png)
+10. `Sleep Tracker`
+![](https://media.discordapp.net/attachments/1031232821815169048/1032937705723670588/unknown.png?width=1125&height=639)
+![](https://media.discordapp.net/attachments/1031232821815169048/1032937811944419348/unknown.png?width=1124&height=639)
 
-5. `Body Fat Calculator`
-![](https://cdn.discordapp.com/attachments/1031232821815169048/1032911979276402739/unknown.png)
+11. `Step Tracker`
+![](https://media.discordapp.net/attachments/1031232821815169048/1032938066739990549/unknown.png?width=1124&height=639)
+![](https://media.discordapp.net/attachments/1031232821815169048/1032938143567061022/unknown.png?width=1124&height=639)
+
+
+#Contributors
+
