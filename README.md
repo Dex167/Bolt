@@ -13,10 +13,10 @@ It also displays a meditation timer and several health calculators
 
 # Table of contents
 
-- [Usage](#usage)
+- [Contents]
     - [Features](#Features)
     - [Contributors](#Contributors)
-    - [Applications Used](#Applications Used)
+    - [Applications Used](#ApplicationsUsed)
 
 
 # Features
