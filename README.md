@@ -72,7 +72,8 @@ It also displays a meditation timer and several health calculators
 ![](https://media.discordapp.net/attachments/1031232821815169048/1032991446384529489/dex.exe-dex.exe9205.png)
 
 
-# Applications Used
+# Applications
+#Applications Used By Us
 
 Bolt has been made using Flask (A python package), Python 3.8.10, HTML5, Bootstrap, Javascript, and JSON for user authentication and storage of data
 
