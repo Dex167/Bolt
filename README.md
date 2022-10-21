@@ -15,7 +15,7 @@ It also displays a meditation timer and several health calculators
 
 - [Usage](#usage)
     - [Features](#Features)
-    - [Contributors](#Contributors)
+    - [Contributors](# Contributors)
     - [Applications Used](#Applications Used)
 
 
@@ -65,5 +65,15 @@ It also displays a meditation timer and several health calculators
 ![](https://media.discordapp.net/attachments/1031232821815169048/1032938143567061022/unknown.png?width=1124&height=639)
 
 
-#Contributors
+# Contributors
 
+![](https://media.discordapp.net/attachments/1031232821815169048/1032986958856716368/anythincodes-discord_-anythin6318_1.png)
+![](https://media.discordapp.net/attachments/1031232821815169048/1032986959175491664/devarsh-discord_-jeffybb1218.png)
+
+
+# Applications Used
+
+
+1. **Visual Studio Code*** (For Coding, and Running Applications)
+2. **ShotCut** (For Video Editing)
+3. **Youtube** (For Uploading Videos)
